@@ -32,3 +32,16 @@ Thumbs.db
 
 # self defined
 *.bak
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
